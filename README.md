@@ -1,7 +1,7 @@
 # network-ops-rj
 
 ## Objetivo
-Entrar no mercado no RJ atuando com ** Redes IP / NOC / Operações de Rede **, evoluindo para N2 e N3 (Roteamento, switching, monitoramento e automação)
+Entrar no mercado no RJ atuando com **Redes IP / NOC / Operações de Rede**, evoluindo para N2 e N3 (Roteamento, switching, monitoramento e automação)
 
 ## O que ja sei
 - Redes: Conceito de IP
