@@ -79,8 +79,8 @@ Fa0/1       1,10,20
 Fa0/24      1,10,20
 Switch>
 
-### SW2 — show interfaces trunk
-```text
+SW2 — show interfaces trunk
+
 Switch>show interfaces trunk
 Port        Mode         Encapsulation  Status        Native vlan
 Fa0/24      on           802.1q         trunking      1
@@ -95,8 +95,8 @@ Port        Vlans in spanning tree forwarding state and not pruned
 Fa0/24      1,10,20
 Switch>
 
-### R1 - Show ip interface brief
-```text
+R1 - Show ip interface brief
+
 Router>show ip interface brief
 Interface              IP-Address       OK? Method Status                Protocol
 GigabitEthernet0/0     unassigned       YES unset  up                    up
