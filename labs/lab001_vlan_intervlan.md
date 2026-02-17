@@ -30,4 +30,19 @@ Configurar duas VLANs (10 a 20), trunk entre switches e roteamento entre VLANs v
 - `show vlan brief`
 - `show interfaces trunk`
 
-###
+### R1
+- `show ip interface brief`
+- `show running-config | sextion interface`
+- 
+## Testes
+- Ping PC10 -> 192.168.10.1 (gateway)
+- Ping PC20 -> 192.168.20.1 (gateway)
+- Ping PC10 -> PC20 (192.168.20.20)
+
+## Problemas encontrados
+(em breve)
+
+## Evidências
+- print da topologia
+- Prints dos pings funcionando
+- 
