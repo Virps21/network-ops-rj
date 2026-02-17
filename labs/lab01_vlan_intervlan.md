@@ -63,8 +63,33 @@ Fa0/1       1,10,20
 Fa0/24      1,10,20
 Switch>
 
+```
 ### SW2 — show interfaces trunk
 ```text
+Switch>show interfaces trunk
+Port        Mode         Encapsulation  Status        Native vlan
+Fa0/24      on           802.1q         trunking      1
 
+Port        Vlans allowed on trunk
+Fa0/24      1,10,20
 
+Port        Vlans allowed and active in management domain
+Fa0/24      1,10,20
+
+Port        Vlans in spanning tree forwarding state and not pruned
+Fa0/24      1,10,20
+Switch>
+
+```
+### R1 — show ip interface brief
+```text
+Router>show ip interface brief
+Interface              IP-Address       OK? Method Status                Protocol
+GigabitEthernet0/0     unassigned       YES unset  up                    up
+GigabitEthernet0/0.10  192.168.10.1     YES manual up                    up
+GigabitEthernet0/0.20  192.168.20.1     YES manual up                    down
+GigabitEthernet0/1     unassigned       YES unset  administratively down down
+Vlan1                  unassigned       YES unset  administratively down down
+Router>
+```
 
