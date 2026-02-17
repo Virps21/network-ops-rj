@@ -57,28 +57,24 @@ Configurar duas VLANs (**10 e 20**), trunk entre switches e roteamento entre VLA
 
 ## Evidências
 - Arquivo do Packet Tracer: [lab01_vlan_intervlan.pkt](lab01_vlan_intervlan.pkt)
-
 - Prints dos pings
-- Outputs:
-  - `show interfaces trunk` (SW1 e SW2)
-     ### SW1 — show interfaces trunk
-    ```text
-    Switch>show interfaces trunk
-    Port        Mode         Encapsulation  Status        Native vlan
-    Fa0/1       on           802.1q         trunking      1
-    Fa0/24      on           802.1q         trunking      1
-    
-    Port        Vlans allowed on trunk
-    Fa0/1       1,10,20
-    Fa0/24      1,10,20
-    
-    Port        Vlans allowed and active in management domain
-    Fa0/1       1,10,20
-    Fa0/24      1,10,20
-    
-    Port        Vlans in spanning tree forwarding state and not pruned
-    Fa0/1       1,10,20
-    Fa0/24      1,10,20
-    Switch>
 
-  - `show ip interface brief` (R1)
+### SW1 — show interfaces trunk
+```text
+Switch>show interfaces trunk
+Port        Mode         Encapsulation  Status        Native vlan
+Fa0/1       on           802.1q         trunking      1
+Fa0/24      on           802.1q         trunking      1
+
+Port        Vlans allowed on trunk
+Fa0/1       1,10,20
+Fa0/24      1,10,20
+
+Port        Vlans allowed and active in management domain
+Fa0/1       1,10,20
+Fa0/24      1,10,20
+
+Port        Vlans in spanning tree forwarding state and not pruned
+Fa0/1       1,10,20
+Fa0/24      1,10,20
+Switch>
