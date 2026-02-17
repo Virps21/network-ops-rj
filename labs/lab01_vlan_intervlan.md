@@ -62,3 +62,9 @@ Port        Vlans in spanning tree forwarding state and not pruned
 Fa0/1       1,10,20
 Fa0/24      1,10,20
 Switch>
+
+### SW2 — show interfaces trunk
+```text
+
+
+
