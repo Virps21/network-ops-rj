@@ -56,7 +56,8 @@ Configurar duas VLANs (**10 e 20**), trunk entre switches e roteamento entre VLA
   - `switchport trunk allowed vlan 1,10,20`
 
 ## Evidências
-- Print da topologia
+- Arquivo do Packet Tracer: [lab01_vlan_intervlan.pkt](lab01_vlan_intervlan.pkt)
+
 - Prints dos pings
 - Outputs:
   - `show interfaces trunk` (SW1 e SW2)
