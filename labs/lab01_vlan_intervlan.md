@@ -78,5 +78,6 @@ Port        Vlans in spanning tree forwarding state and not pruned
 Fa0/1       1,10,20
 Fa0/24      1,10,20
 Switch>
+<img width="670" height="206" alt="captura2w" src="https://github.com/user-attachments/assets/a12b02a0-498a-4718-bafe-517ad40a3a0d" />
 
-<img width="703" height="1008" alt="image" src="https://github.com/user-attachments/assets/9164e5a3-f91f-4cbc-80ae-ecc712965a92" />
+
