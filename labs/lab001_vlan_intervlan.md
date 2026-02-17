@@ -45,4 +45,3 @@ Configurar duas VLANs (10 a 20), trunk entre switches e roteamento entre VLANs v
 ## Evidências
 - print da topologia
 - Prints dos pings funcionando
-- 
